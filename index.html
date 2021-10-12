@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+
+		<title>PDF Viewer</title>
+	</head>
+	<body>
+		<div class="top-bar">
+			<button class="btn" id="prev-page">
+				<i class="fas fa-arrow-circle-left"></i> Prev Page
+			</button>
+			<button class="btn" id="next-page">
+				Next Page<i class="fas fa-arrow-circle-right"></i>
+			</button>
+
+			<span class="page-info">
+				Page <span id="page-num"></span> of <span id="page-count"></span>
+			</span>
+		</div>
+
+		<canvas id="pdf-render"></canvas>
+	</body>
+	<script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+	<script src="main.js"></script>
+</html>

@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", sans-serif;
+}
+
+.top-bar {
+	background: rgb(71, 70, 70);
+	color: white;
+	padding: 1rem;
+}
+
+.btn {
+	background: coral;
+	color: white;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 0.7rem 0.2rem;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	opacity: 0.8;
+	color: white;
+	font-weight: bolder;
+}
+
+.page-info {
+	margin-left: 1rem;
+}
+
+.error {
+	background: orangered;
+	color: #fff;
+	padding: 1rem;
+}
